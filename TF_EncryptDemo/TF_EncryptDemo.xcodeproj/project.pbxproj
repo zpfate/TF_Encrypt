@@ -7,29 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5BE8E6C62250DAAC00BBD38A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE8E6C52250DAAC00BBD38A /* AppDelegate.m */; };
-		5BE8E6C92250DAAC00BBD38A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE8E6C82250DAAC00BBD38A /* ViewController.m */; };
-		5BE8E6CC2250DAAC00BBD38A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE8E6CA2250DAAC00BBD38A /* Main.storyboard */; };
-		5BE8E6CE2250DAAD00BBD38A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE8E6CD2250DAAD00BBD38A /* Assets.xcassets */; };
-		5BE8E6D12250DAAD00BBD38A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE8E6CF2250DAAD00BBD38A /* LaunchScreen.storyboard */; };
-		5BE8E6D42250DAAD00BBD38A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE8E6D32250DAAD00BBD38A /* main.m */; };
+		5BE8E6E72250DB4100BBD38A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE8E6E62250DB4100BBD38A /* main.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5BE8E6E12250DB4100BBD38A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		5BE8E6C12250DAAC00BBD38A /* TF_EncryptDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TF_EncryptDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BE8E6C42250DAAC00BBD38A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5BE8E6C52250DAAC00BBD38A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5BE8E6C72250DAAC00BBD38A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5BE8E6C82250DAAC00BBD38A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5BE8E6CB2250DAAC00BBD38A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5BE8E6CD2250DAAD00BBD38A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5BE8E6D02250DAAD00BBD38A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5BE8E6D22250DAAD00BBD38A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BE8E6D32250DAAD00BBD38A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BE8E6E32250DB4100BBD38A /* TF_EncryptDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TF_EncryptDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE8E6E62250DB4100BBD38A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5BE8E6BE2250DAAC00BBD38A /* Frameworks */ = {
+		5BE8E6E02250DB4100BBD38A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,34 +38,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5BE8E6B82250DAAC00BBD38A = {
+		5BE8E6DA2250DB4100BBD38A = {
 			isa = PBXGroup;
 			children = (
-				5BE8E6C32250DAAC00BBD38A /* TF_EncryptDemo */,
-				5BE8E6C22250DAAC00BBD38A /* Products */,
+				5BE8E6E52250DB4100BBD38A /* TF_EncryptDemo */,
+				5BE8E6E42250DB4100BBD38A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5BE8E6C22250DAAC00BBD38A /* Products */ = {
+		5BE8E6E42250DB4100BBD38A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5BE8E6C12250DAAC00BBD38A /* TF_EncryptDemo.app */,
+				5BE8E6E32250DB4100BBD38A /* TF_EncryptDemo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5BE8E6C32250DAAC00BBD38A /* TF_EncryptDemo */ = {
+		5BE8E6E52250DB4100BBD38A /* TF_EncryptDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5BE8E6C42250DAAC00BBD38A /* AppDelegate.h */,
-				5BE8E6C52250DAAC00BBD38A /* AppDelegate.m */,
-				5BE8E6C72250DAAC00BBD38A /* ViewController.h */,
-				5BE8E6C82250DAAC00BBD38A /* ViewController.m */,
-				5BE8E6CA2250DAAC00BBD38A /* Main.storyboard */,
-				5BE8E6CD2250DAAD00BBD38A /* Assets.xcassets */,
-				5BE8E6CF2250DAAD00BBD38A /* LaunchScreen.storyboard */,
-				5BE8E6D22250DAAD00BBD38A /* Info.plist */,
-				5BE8E6D32250DAAD00BBD38A /* main.m */,
+				5BE8E6E62250DB4100BBD38A /* main.m */,
 			);
 			path = TF_EncryptDemo;
 			sourceTree = "<group>";
@@ -74,13 +65,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5BE8E6C02250DAAC00BBD38A /* TF_EncryptDemo */ = {
+		5BE8E6E22250DB4100BBD38A /* TF_EncryptDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5BE8E6D72250DAAD00BBD38A /* Build configuration list for PBXNativeTarget "TF_EncryptDemo" */;
+			buildConfigurationList = 5BE8E6EA2250DB4100BBD38A /* Build configuration list for PBXNativeTarget "TF_EncryptDemo" */;
 			buildPhases = (
-				5BE8E6BD2250DAAC00BBD38A /* Sources */,
-				5BE8E6BE2250DAAC00BBD38A /* Frameworks */,
-				5BE8E6BF2250DAAC00BBD38A /* Resources */,
+				5BE8E6DF2250DB4100BBD38A /* Sources */,
+				5BE8E6E02250DB4100BBD38A /* Frameworks */,
+				5BE8E6E12250DB4100BBD38A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -88,88 +79,53 @@
 			);
 			name = TF_EncryptDemo;
 			productName = TF_EncryptDemo;
-			productReference = 5BE8E6C12250DAAC00BBD38A /* TF_EncryptDemo.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 5BE8E6E32250DB4100BBD38A /* TF_EncryptDemo */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5BE8E6B92250DAAC00BBD38A /* Project object */ = {
+		5BE8E6DB2250DB4100BBD38A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = TwistedFate;
 				TargetAttributes = {
-					5BE8E6C02250DAAC00BBD38A = {
+					5BE8E6E22250DB4100BBD38A = {
 						CreatedOnToolsVersion = 10.2;
 					};
 				};
 			};
-			buildConfigurationList = 5BE8E6BC2250DAAC00BBD38A /* Build configuration list for PBXProject "TF_EncryptDemo" */;
+			buildConfigurationList = 5BE8E6DE2250DB4100BBD38A /* Build configuration list for PBXProject "TF_EncryptDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 5BE8E6B82250DAAC00BBD38A;
-			productRefGroup = 5BE8E6C22250DAAC00BBD38A /* Products */;
+			mainGroup = 5BE8E6DA2250DB4100BBD38A;
+			productRefGroup = 5BE8E6E42250DB4100BBD38A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5BE8E6C02250DAAC00BBD38A /* TF_EncryptDemo */,
+				5BE8E6E22250DB4100BBD38A /* TF_EncryptDemo */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		5BE8E6BF2250DAAC00BBD38A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5BE8E6D12250DAAD00BBD38A /* LaunchScreen.storyboard in Resources */,
-				5BE8E6CE2250DAAD00BBD38A /* Assets.xcassets in Resources */,
-				5BE8E6CC2250DAAC00BBD38A /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		5BE8E6BD2250DAAC00BBD38A /* Sources */ = {
+		5BE8E6DF2250DB4100BBD38A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BE8E6C92250DAAC00BBD38A /* ViewController.m in Sources */,
-				5BE8E6D42250DAAD00BBD38A /* main.m in Sources */,
-				5BE8E6C62250DAAC00BBD38A /* AppDelegate.m in Sources */,
+				5BE8E6E72250DB4100BBD38A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		5BE8E6CA2250DAAC00BBD38A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BE8E6CB2250DAAC00BBD38A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5BE8E6CF2250DAAD00BBD38A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BE8E6D02250DAAD00BBD38A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		5BE8E6D52250DAAD00BBD38A /* Debug */ = {
+		5BE8E6E82250DB4100BBD38A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -201,7 +157,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -220,15 +176,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		5BE8E6D62250DAAD00BBD38A /* Release */ = {
+		5BE8E6E92250DB4100BBD38A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -260,7 +216,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -273,70 +229,53 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		5BE8E6D82250DAAD00BBD38A /* Debug */ = {
+		5BE8E6EB2250DB4100BBD38A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83J8888V77;
-				INFOPLIST_FILE = TF_EncryptDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.TwistedFate.www.TF-EncryptDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		5BE8E6D92250DAAD00BBD38A /* Release */ = {
+		5BE8E6EC2250DB4100BBD38A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83J8888V77;
-				INFOPLIST_FILE = TF_EncryptDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.TwistedFate.www.TF-EncryptDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5BE8E6BC2250DAAC00BBD38A /* Build configuration list for PBXProject "TF_EncryptDemo" */ = {
+		5BE8E6DE2250DB4100BBD38A /* Build configuration list for PBXProject "TF_EncryptDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5BE8E6D52250DAAD00BBD38A /* Debug */,
-				5BE8E6D62250DAAD00BBD38A /* Release */,
+				5BE8E6E82250DB4100BBD38A /* Debug */,
+				5BE8E6E92250DB4100BBD38A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5BE8E6D72250DAAD00BBD38A /* Build configuration list for PBXNativeTarget "TF_EncryptDemo" */ = {
+		5BE8E6EA2250DB4100BBD38A /* Build configuration list for PBXNativeTarget "TF_EncryptDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5BE8E6D82250DAAD00BBD38A /* Debug */,
-				5BE8E6D92250DAAD00BBD38A /* Release */,
+				5BE8E6EB2250DB4100BBD38A /* Debug */,
+				5BE8E6EC2250DB4100BBD38A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5BE8E6B92250DAAC00BBD38A /* Project object */;
+	rootObject = 5BE8E6DB2250DB4100BBD38A /* Project object */;
 }
