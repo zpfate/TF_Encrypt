@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B2F4D012251F97E009263AB /* NSData+TF_Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2F4D002251F97E009263AB /* NSData+TF_Conversion.m */; };
 		5BE8E6E72250DB4100BBD38A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE8E6E62250DB4100BBD38A /* main.m */; };
+		5BE8E6FA2250DC8900BBD38A /* NSData+TF_Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE8E6F92250DC8900BBD38A /* NSData+TF_Encrypt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5B2F4CFF2251F97E009263AB /* NSData+TF_Conversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+TF_Conversion.h"; sourceTree = "<group>"; };
+		5B2F4D002251F97E009263AB /* NSData+TF_Conversion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+TF_Conversion.m"; sourceTree = "<group>"; };
 		5BE8E6E32250DB4100BBD38A /* TF_EncryptDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TF_EncryptDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE8E6E62250DB4100BBD38A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BE8E6F82250DC8900BBD38A /* NSData+TF_Encrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+TF_Encrypt.h"; sourceTree = "<group>"; };
+		5BE8E6F92250DC8900BBD38A /* NSData+TF_Encrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+TF_Encrypt.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,20 @@
 			isa = PBXGroup;
 			children = (
 				5BE8E6E62250DB4100BBD38A /* main.m */,
+				5BE8E6ED2250DBC900BBD38A /* TF_Encrypt */,
 			);
 			path = TF_EncryptDemo;
+			sourceTree = "<group>";
+		};
+		5BE8E6ED2250DBC900BBD38A /* TF_Encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				5BE8E6F82250DC8900BBD38A /* NSData+TF_Encrypt.h */,
+				5BE8E6F92250DC8900BBD38A /* NSData+TF_Encrypt.m */,
+				5B2F4CFF2251F97E009263AB /* NSData+TF_Conversion.h */,
+				5B2F4D002251F97E009263AB /* NSData+TF_Conversion.m */,
+			);
+			path = TF_Encrypt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +137,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BE8E6E72250DB4100BBD38A /* main.m in Sources */,
+				5BE8E6FA2250DC8900BBD38A /* NSData+TF_Encrypt.m in Sources */,
+				5B2F4D012251F97E009263AB /* NSData+TF_Conversion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
