@@ -12,6 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSData (TF_Conversion)
 
+- (NSInteger)integerValueWithRange:(NSRange)range;
+
+- (NSInteger)integerValue;
+
 + (NSData *)dataFromShort:(short)value;
 
 + (NSData *)dataFromInt:(int)value;

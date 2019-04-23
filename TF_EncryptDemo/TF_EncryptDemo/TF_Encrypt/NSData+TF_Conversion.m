@@ -10,6 +10,27 @@
 
 @implementation NSData (TF_Conversion)
 
+- (NSInteger)integerValueWithRange:(NSRange)range {
+    
+    NSData *subData = [self subdataWithRange:range];
+    return [subData integerValue];
+}
+
+- (NSInteger)integerValue {
+    
+    Byte bytes[self.length];
+    [self getBytes:&bytes range:NSMakeRange(0, self.length)];
+    int mask = 0xff;
+    int temp = 0;
+    int value = 0;
+    for (int i = 0;i < self.length; i++) {
+        value <<= 8;
+        temp = bytes[i] & mask;
+        value |= temp;
+    }
+    return value;
+}
+
 + (NSData *)dataFromShort:(short)value {
     Byte bytes[2] = {};
     for (int i = 0; i < 2; i++) {
