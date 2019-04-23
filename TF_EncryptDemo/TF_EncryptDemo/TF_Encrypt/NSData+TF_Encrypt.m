@@ -98,13 +98,13 @@ static const NSInteger kStaticPrfMinimumLength = 96;
         NSLog(@"Crypt Successfully");
 
         NSData *result = [NSData dataWithBytesNoCopy:buffer length:numBytesCrypted];
-    /* 转16进制字符串
+    /* 转16进制字符串 */
         Byte *resultBytes = (Byte *)result.bytes;
         NSMutableString *outPut = [[NSMutableString alloc] initWithCapacity:result.length * 2];
         for (int i = 0; i < result.length; i++) {
             [outPut appendFormat:@"%02x", resultBytes[i]];
         }
-    */
+
         return result;
         
     } else {
